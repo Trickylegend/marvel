@@ -9,7 +9,7 @@ export default function ComicCard({ comic }: { comic: ComicSummary }) {
 			</div>
 			<div className={styles.infoContainer}>
 				<h3 className={styles.name}>{comic.title}</h3>
-				{comic.price && <p className={styles.price}>{comic.price}</p>}
+				{comic.price && <p className={styles.price}>${comic.price}</p>}
 			</div>
 		</div>
 	)

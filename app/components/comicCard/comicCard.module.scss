@@ -1,16 +1,20 @@
 .container {
 	height: 100%;
 	background-color: #1f2833;
+
 	border: unset;
 	border-radius: 10px;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
+
 	.imageContainer {
-		position: relative;
+		border-top-left-radius: 10px;
+		border-top-right-radius: 10px;
 		width: 100%;
-		aspect-ratio: 10 / 14;
+		aspect-ratio: 10 / 12;
 		overflow: hidden;
 		img {
 			object-fit: cover;
@@ -19,19 +23,72 @@
 		}
 	}
 	.infoContainer {
+		width: 100%;
 		padding: 30px 15px;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		justify-content: space-between;
 		color: #66fcf1;
-
 		gap: 15px;
-
 		.name {
-			font-size: 30px;
+			font-size: 24px;
 		}
 		.price {
-			font-size: 24px;
+			font-size: 18px;
 		}
 	}
 }
+
+@media (max-width: 1200px) {
+	.container {
+		height: 100%;
+		.imageContainer {
+			aspect-ratio: 10 / 12;
+		}
+		.infoContainer {
+			padding: 20px 15px;
+			.name {
+				font-size: 20px;
+			}
+			.price {
+				font-size: 16px;
+			}
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.container {
+		height: 100%;
+		.imageContainer {
+			aspect-ratio: 10 / 12;
+		}
+		.infoContainer {
+			padding: 20px 15px;
+			.name {
+				font-size: 20px;
+			}
+			.price {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		height: 100%;
+		.imageContainer {
+			aspect-ratio: 10 / 10;
+		}
+		.infoContainer {
+			padding: 20px 15px;
+			.name {
+				font-size: 20px;
+			}
+			.price {
+				font-size: 16px;
+			}
+		}
+	}
+}
+

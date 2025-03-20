@@ -7,9 +7,11 @@ import {
 	ScrollRestoration,
 } from 'react-router'
 
+import { Provider } from 'react-redux'
 import type { Route } from './+types/root'
 import './app.css'
 import Header from './components/header/header'
+import { store } from './redux/store'
 
 export const links: Route.LinksFunction = () => [
 	{ rel: 'preconnect', href: 'https://fonts.googleapis.com' },
@@ -24,6 +26,11 @@ export const links: Route.LinksFunction = () => [
 	},
 ]
 
+// const storeRef = useRef<AppStore | null>(null)
+// if (!storeRef.current) {
+// 	storeRef.current = makeStore()
+// }
+
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang='en'>
@@ -34,8 +41,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Links />
 			</head>
 			<body>
-				{children}
-
+				<Provider store={store}>{children}</Provider>
+				{/* <Provider store={storeRef.current}>{children}</Provider> */}
 				<ScrollRestoration />
 				<Scripts />
 			</body>

@@ -1,0 +1,36 @@
+.heroCardContainer {
+	padding: 30px;
+	width: 50%;
+	border: 2px solid #66fcf1;
+	border-radius: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: center;
+	gap: 30px;
+
+	.imageContainer {
+		position: relative;
+		border-radius: 10px;
+		width: 40%;
+		aspect-ratio: 10 / 12;
+		overflow: hidden;
+		img {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.infoContainer {
+		width: 80%;
+		display: flex;
+		flex-direction: column;
+		gap: 10px;
+		.name{
+			font-size: 24px;
+		}
+		.description {
+			font-size: 18px;
+		}
+	}
+}

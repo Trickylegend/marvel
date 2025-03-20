@@ -136,13 +136,31 @@
 			"comics": [
 				{
 					"id": 1,
-					"name": "The Amazing Adventure",
+					"title": "The Amazing Adventure",
 					"description": "An epic journey of heroes and villains.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 2,
-					"name": "Battle of the Titans",
+					"title": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 3,
+					"title": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 4,
+					"title": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 5,
+					"title": "Battle of the Titans",
 					"description": "Clashes between legendary titans in a modern world.",
 					"image": "/comic.svg"
 				}
@@ -156,14 +174,32 @@
 			"comics": [
 				{
 					"id": 2,
-					"name": "Battle of the Titans",
+					"title": "Battle of the Titans",
 					"description": "Clashes between legendary titans in a modern world.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 3,
-					"name": "Mystery in the City",
+					"title": "Mystery in the City",
 					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 2,
+					"title": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 3,
+					"title": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 2,
+					"title": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
 					"image": "/comic.svg"
 				}
 			]
@@ -176,14 +212,32 @@
 			"comics": [
 				{
 					"id": 3,
-					"name": "Mystery in the City",
+					"title": "Mystery in the City",
 					"description": "A detective story with unexpected twists.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 4,
-					"name": "Rise of the Legends",
+					"title": "Rise of the Legends",
 					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 3,
+					"title": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 4,
+					"title": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 3,
+					"title": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
 					"image": "/comic.svg"
 				}
 			]
@@ -196,14 +250,32 @@
 			"comics": [
 				{
 					"id": 4,
-					"name": "Rise of the Legends",
+					"title": "Rise of the Legends",
 					"description": "Heroes unite to defeat a common foe.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 5,
-					"name": "Shadow Warriors",
+					"title": "Shadow Warriors",
 					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 4,
+					"title": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 5,
+					"title": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 4,
+					"title": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
 					"image": "/comic.svg"
 				}
 			]
@@ -216,14 +288,32 @@
 			"comics": [
 				{
 					"id": 5,
-					"name": "Shadow Warriors",
+					"title": "Shadow Warriors",
 					"description": "A group of warriors operates from the shadows.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 6,
-					"name": "Cosmic Quest",
+					"title": "Cosmic Quest",
 					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 5,
+					"title": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 6,
+					"title": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 5,
+					"title": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
 					"image": "/comic.svg"
 				}
 			]
@@ -236,14 +326,32 @@
 			"comics": [
 				{
 					"id": 6,
-					"name": "Cosmic Quest",
+					"title": "Cosmic Quest",
 					"description": "A space odyssey with intergalactic battles.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 7,
-					"name": "The Last Stand",
+					"title": "The Last Stand",
 					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 6,
+					"title": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 7,
+					"title": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 6,
+					"title": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
 					"image": "/comic.svg"
 				}
 			]
@@ -256,14 +364,32 @@
 			"comics": [
 				{
 					"id": 7,
-					"name": "The Last Stand",
+					"title": "The Last Stand",
 					"description": "A gripping tale of courage and sacrifice.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 8,
-					"name": "Urban Legends",
+					"title": "Urban Legends",
 					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 7,
+					"title": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 8,
+					"title": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 7,
+					"title": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
 					"image": "/comic.svg"
 				}
 			]
@@ -276,14 +402,32 @@
 			"comics": [
 				{
 					"id": 8,
-					"name": "Urban Legends",
+					"title": "Urban Legends",
 					"description": "Modern myths come alive in the urban jungle.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 9,
-					"name": "Fury of the Elements",
+					"title": "Fury of the Elements",
 					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 8,
+					"title": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 9,
+					"title": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 8,
+					"title": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
 					"image": "/comic.svg"
 				}
 			]
@@ -296,14 +440,32 @@
 			"comics": [
 				{
 					"id": 9,
-					"name": "Fury of the Elements",
+					"title": "Fury of the Elements",
 					"description": "Nature’s power is unleashed in epic battles.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 10,
-					"name": "Chronicles of Destiny",
+					"title": "Chronicles of Destiny",
 					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 9,
+					"title": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 10,
+					"title": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 9,
+					"title": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
 					"image": "/comic.svg"
 				}
 			]
@@ -316,14 +478,32 @@
 			"comics": [
 				{
 					"id": 10,
-					"name": "Chronicles of Destiny",
+					"title": "Chronicles of Destiny",
 					"description": "Fate and heroism intertwined in a timeless saga.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 11,
-					"name": "Secret Society",
+					"title": "Secret Society",
 					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 10,
+					"title": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 11,
+					"title": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 10,
+					"title": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
 					"image": "/comic.svg"
 				}
 			]
@@ -336,14 +516,32 @@
 			"comics": [
 				{
 					"id": 11,
-					"name": "Secret Society",
+					"title": "Secret Society",
 					"description": "A hidden organization with mysterious powers.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 12,
-					"name": "Vortex of Time",
+					"title": "Vortex of Time",
 					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 11,
+					"title": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 12,
+					"title": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 11,
+					"title": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
 					"image": "/comic.svg"
 				}
 			]
@@ -356,14 +554,32 @@
 			"comics": [
 				{
 					"id": 12,
-					"name": "Vortex of Time",
+					"title": "Vortex of Time",
 					"description": "Time travel and paradoxes in a high stakes adventure.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 13,
-					"name": "Legends Reborn",
+					"title": "Legends Reborn",
 					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 12,
+					"title": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 13,
+					"title": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 12,
+					"title": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
 					"image": "/comic.svg"
 				}
 			]
@@ -376,14 +592,32 @@
 			"comics": [
 				{
 					"id": 13,
-					"name": "Legends Reborn",
+					"title": "Legends Reborn",
 					"description": "Forgotten heroes emerge in a modern era.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 14,
-					"name": "Quest for Honor",
+					"title": "Quest for Honor",
 					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 13,
+					"title": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 14,
+					"title": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 13,
+					"title": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
 					"image": "/comic.svg"
 				}
 			]
@@ -396,14 +630,32 @@
 			"comics": [
 				{
 					"id": 14,
-					"name": "Quest for Honor",
+					"title": "Quest for Honor",
 					"description": "A noble quest that tests the limits of bravery.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 15,
-					"name": "Rebel Uprising",
+					"title": "Rebel Uprising",
 					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 14,
+					"title": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 15,
+					"title": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 14,
+					"title": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
 					"image": "/comic.svg"
 				}
 			]
@@ -416,14 +668,32 @@
 			"comics": [
 				{
 					"id": 15,
-					"name": "Rebel Uprising",
+					"title": "Rebel Uprising",
 					"description": "Revolution and resistance in a dystopian future.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 16,
-					"name": "Mystic Realms",
+					"title": "Mystic Realms",
 					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 15,
+					"title": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 16,
+					"title": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 15,
+					"title": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
 					"image": "/comic.svg"
 				}
 			]
@@ -436,14 +706,32 @@
 			"comics": [
 				{
 					"id": 16,
-					"name": "Mystic Realms",
+					"title": "Mystic Realms",
 					"description": "Magic and mystery in a world beyond imagination.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 17,
-					"name": "Edge of Darkness",
+					"title": "Edge of Darkness",
 					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 16,
+					"title": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 17,
+					"title": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 16,
+					"title": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
 					"image": "/comic.svg"
 				}
 			]
@@ -456,14 +744,32 @@
 			"comics": [
 				{
 					"id": 17,
-					"name": "Edge of Darkness",
+					"title": "Edge of Darkness",
 					"description": "Battles between light and dark forces.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 18,
-					"name": "Heroes United",
+					"title": "Heroes United",
 					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 17,
+					"title": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 18,
+					"title": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 17,
+					"title": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
 					"image": "/comic.svg"
 				}
 			]
@@ -476,14 +782,32 @@
 			"comics": [
 				{
 					"id": 18,
-					"name": "Heroes United",
+					"title": "Heroes United",
 					"description": "Diverse heroes come together to save the world.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 19,
-					"name": "Rise and Fall",
+					"title": "Rise and Fall",
 					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 18,
+					"title": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 19,
+					"title": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 18,
+					"title": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
 					"image": "/comic.svg"
 				}
 			]
@@ -496,14 +820,32 @@
 			"comics": [
 				{
 					"id": 19,
-					"name": "Rise and Fall",
+					"title": "Rise and Fall",
 					"description": "A dramatic tale of victory and defeat.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 20,
-					"name": "Infinite Horizons",
+					"title": "Infinite Horizons",
 					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 19,
+					"title": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 20,
+					"title": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 19,
+					"title": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
 					"image": "/comic.svg"
 				}
 			]
@@ -516,18 +858,37 @@
 			"comics": [
 				{
 					"id": 20,
-					"name": "Infinite Horizons",
+					"title": "Infinite Horizons",
 					"description": "Exploring endless possibilities in a boundless universe.",
 					"image": "/comic.svg"
 				},
 				{
 					"id": 1,
-					"name": "The Amazing Adventure",
+					"title": "The Amazing Adventure",
 					"description": "An epic journey of heroes and villains.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 20,
+					"title": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 1,
+					"title": "The Amazing Adventure",
+					"description": "An epic journey of heroes and villains.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 20,
+					"title": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
 					"image": "/comic.svg"
 				}
 			]
 		},
+
 		{
 			"id": 21,
 			"image": "/hero.svg",

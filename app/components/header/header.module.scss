@@ -4,12 +4,9 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	padding: 20px;
-
 	.navigationContainer {
-		width: 40vw;
-
+		width: 40%;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -28,6 +25,24 @@
 				left: 0;
 				bottom: -4px;
 			}
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.container {
+		width: 100%;
+		padding: 20px;
+		.navigationContainer {
+			width: 70%;
+		}
+	}
+}
+@media (max-width: 800px) {
+	.container {
+		width: 100%;
+		padding: 20px;
+		.navigationContainer {
+			width: 100%;
 		}
 	}
 }

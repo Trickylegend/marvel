@@ -1,6 +1,10 @@
 import React from 'react'
 import { Form, useNavigation, useSubmit } from 'react-router'
 import { getHeroes } from '~/api/getHeroes'
+import ComicsSlider from '~/components/comicsSlider/comicsSlider'
+import HeroCard from '~/components/heroCard/heroCard'
+import SmallHeroCard from '~/components/smallHeroCard/smallHeroCard'
+import { useAppSelector } from '~/redux/hooks'
 import type { Route } from './+types/heroes'
 import styles from './heroes.module.scss'
 
@@ -26,29 +30,46 @@ export default function Heroes({ loaderData }: Route.ComponentProps) {
 		}
 	}, [q])
 
+	const activeHero = useAppSelector(state => state.activeHeroReducer.activeHero)
+
 	return (
 		<div className={styles.container}>
-			<Form
-				role='search'
-				className={styles.searchContainer}
-				onChange={event => {
-					submit(event.currentTarget)
-				}}
-			>
-				<input
-					id='q'
-					name='q'
-					type='search'
-					defaultValue={q || ''}
-					placeholder='Search'
-					className={`${styles.input} ${searching && styles.searching}`}
-				/>
-				<div aria-hidden hidden={!searching} className={styles.searchSpinner} />
-			</Form>
-			<h2>Heroes</h2>
-			{heroes.map(hero => (
-				<p>{hero.name}</p>
-			))}
+			<div className={styles.heroesContainer}>
+				<Form
+					role='search'
+					className={styles.searchContainer}
+					onChange={event => {
+						submit(event.currentTarget)
+					}}
+				>
+					<input
+						id='q'
+						name='q'
+						type='search'
+						defaultValue={q || ''}
+						placeholder='Search'
+						className={`${styles.input} ${searching && styles.searching}`}
+					/>
+					<div
+						aria-hidden
+						hidden={!searching}
+						className={styles.searchSpinner}
+					/>
+				</Form>
+				<div className={styles.listContainer}>
+					{heroes.map(hero => (
+						<SmallHeroCard hero={hero} key={hero.id} />
+					))}
+				</div>
+			</div>
+			<div className={styles.activeHeroContainer}>
+				{activeHero && (
+					<>
+						<HeroCard hero={activeHero} />
+						<ComicsSlider comics={activeHero.comics} />
+					</>
+				)}
+			</div>
 		</div>
 	)
 }

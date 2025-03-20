@@ -13,16 +13,6 @@ export default function Header() {
 						${isPending && styles.pending}`
 					}
 				>
-					Главная
-				</NavLink>
-				<NavLink
-					to={'/comics'}
-					className={({ isActive, isPending }) =>
-						`${styles.link}
-						${isActive && styles.active}
-						${isPending && styles.pending}`
-					}
-				>
 					Комиксы
 				</NavLink>
 				<NavLink
