@@ -1,0 +1,932 @@
+{
+	"comics": [
+		{
+			"id": "1",
+			"image": "/comic.svg",
+			"title": "The Amazing Adventure",
+			"description": "An epic journey of heroes and villains.",
+			"pageCount": 32,
+			"language": "English",
+			"price": 3.99
+		},
+		{
+			"id": "2",
+			"image": "/comic.svg",
+			"title": "Battle of the Titans",
+			"description": "Clashes between legendary titans in a modern world.",
+			"pageCount": 28,
+			"language": "English",
+			"price": 4.5
+		},
+		{
+			"id": "3",
+			"image": "/comic.svg",
+			"title": "Mystery in the City",
+			"description": "A detective story with unexpected twists.",
+			"pageCount": 40,
+			"language": "Russian",
+			"price": 5.0
+		},
+		{
+			"id": "4",
+			"image": "/comic.svg",
+			"title": "Rise of the Legends",
+			"description": "Heroes unite to defeat a common foe.",
+			"pageCount": 36,
+			"language": "English",
+			"price": 4.25
+		},
+		{
+			"id": "5",
+			"image": "/comic.svg",
+			"title": "Shadow Warriors",
+			"description": "A group of warriors operates from the shadows.",
+			"pageCount": 30,
+			"language": "English",
+			"price": 3.75
+		},
+		{
+			"id": "6",
+			"image": "/comic.svg",
+			"title": "Cosmic Quest",
+			"description": "A space odyssey with intergalactic battles.",
+			"pageCount": 42,
+			"language": "English",
+			"price": 5.5
+		},
+		{
+			"id": "7",
+			"image": "/comic.svg",
+			"title": "The Last Stand",
+			"description": "A gripping tale of courage and sacrifice.",
+			"pageCount": 34,
+			"language": "Russian",
+			"price": 4.0
+		},
+		{
+			"id": "8",
+			"image": "/comic.svg",
+			"title": "Urban Legends",
+			"description": "Modern myths come alive in the urban jungle.",
+			"pageCount": 29,
+			"language": "English",
+			"price": 3.5
+		},
+		{
+			"id": "9",
+			"image": "/comic.svg",
+			"title": "Fury of the Elements",
+			"description": "Nature’s power is unleashed in epic battles.",
+			"pageCount": 38,
+			"language": "English",
+			"price": 4.8
+		},
+		{
+			"id": "10",
+			"image": "/comic.svg",
+			"title": "Chronicles of Destiny",
+			"description": "Fate and heroism intertwined in a timeless saga.",
+			"pageCount": 45,
+			"language": "Russian",
+			"price": 5.2
+		},
+		{
+			"id": "11",
+			"image": "/comic.svg",
+			"title": "Secret Society",
+			"description": "A hidden organization with mysterious powers.",
+			"pageCount": 33,
+			"language": "English",
+			"price": 3.9
+		},
+		{
+			"id": "12",
+			"image": "/comic.svg",
+			"title": "Vortex of Time",
+			"description": "Time travel and paradoxes in a high stakes adventure.",
+			"pageCount": 37,
+			"language": "English",
+			"price": 4.3
+		},
+		{
+			"id": "13",
+			"image": "/comic.svg",
+			"title": "Legends Reborn",
+			"description": "Forgotten heroes emerge in a modern era.",
+			"pageCount": 31,
+			"language": "English",
+			"price": 3.6
+		},
+		{
+			"id": "14",
+			"image": "/comic.svg",
+			"title": "Quest for Honor",
+			"description": "A noble quest that tests the limits of bravery.",
+			"pageCount": 39,
+			"language": "Russian",
+			"price": 4.1
+		}
+	],
+	"heroes": [
+		{
+			"id": 1,
+			"image": "/hero.svg",
+			"name": "Elon Musk",
+			"description": "Биография героя Elon Musk. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 1,
+					"name": "The Amazing Adventure",
+					"description": "An epic journey of heroes and villains.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 2,
+					"name": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"image": "/hero.svg",
+			"name": "Bill Gates",
+			"description": "Биография героя Bill Gates. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 2,
+					"name": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 3,
+					"name": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"image": "/hero.svg",
+			"name": "Steve Jobs",
+			"description": "Биография героя Steve Jobs. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 3,
+					"name": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 4,
+					"name": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 4,
+			"image": "/hero.svg",
+			"name": "Mark Zuckerberg",
+			"description": "Биография героя Mark Zuckerberg. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 4,
+					"name": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 5,
+					"name": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 5,
+			"image": "/hero.svg",
+			"name": "Jeff Bezos",
+			"description": "Биография героя Jeff Bezos. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 5,
+					"name": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 6,
+					"name": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 6,
+			"image": "/hero.svg",
+			"name": "Larry Page",
+			"description": "Биография героя Larry Page. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 6,
+					"name": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 7,
+					"name": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 7,
+			"image": "/hero.svg",
+			"name": "Sergey Brin",
+			"description": "Биография героя Sergey Brin. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 7,
+					"name": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 8,
+					"name": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 8,
+			"image": "/hero.svg",
+			"name": "Warren Buffett",
+			"description": "Биография героя Warren Buffett. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 8,
+					"name": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 9,
+					"name": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 9,
+			"image": "/hero.svg",
+			"name": "Tim Cook",
+			"description": "Биография героя Tim Cook. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 9,
+					"name": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 10,
+					"name": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 10,
+			"image": "/hero.svg",
+			"name": "Sundar Pichai",
+			"description": "Биография героя Sundar Pichai. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 10,
+					"name": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 11,
+					"name": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 11,
+			"image": "/hero.svg",
+			"name": "Satya Nadella",
+			"description": "Биография героя Satya Nadella. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 11,
+					"name": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 12,
+					"name": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 12,
+			"image": "/hero.svg",
+			"name": "Jack Dorsey",
+			"description": "Биография героя Jack Dorsey. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 12,
+					"name": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 13,
+					"name": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 13,
+			"image": "/hero.svg",
+			"name": "Reed Hastings",
+			"description": "Биография героя Reed Hastings. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 13,
+					"name": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 14,
+					"name": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 14,
+			"image": "/hero.svg",
+			"name": "Michael Bloomberg",
+			"description": "Биография героя Michael Bloomberg. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 14,
+					"name": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 15,
+					"name": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 15,
+			"image": "/hero.svg",
+			"name": "Oprah Winfrey",
+			"description": "Биография героя Oprah Winfrey. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 15,
+					"name": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 16,
+					"name": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 16,
+			"image": "/hero.svg",
+			"name": "Richard Branson",
+			"description": "Биография героя Richard Branson. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 16,
+					"name": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 17,
+					"name": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 17,
+			"image": "/hero.svg",
+			"name": "Sheryl Sandberg",
+			"description": "Биография героя Sheryl Sandberg. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 17,
+					"name": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 18,
+					"name": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 18,
+			"image": "/hero.svg",
+			"name": "Indra Nooyi",
+			"description": "Биография героя Indra Nooyi. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 18,
+					"name": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 19,
+					"name": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 19,
+			"image": "/hero.svg",
+			"name": "Marissa Mayer",
+			"description": "Биография героя Marissa Mayer. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 19,
+					"name": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 20,
+					"name": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 20,
+			"image": "/hero.svg",
+			"name": "Meg Whitman",
+			"description": "Биография героя Meg Whitman. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 20,
+					"name": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 1,
+					"name": "The Amazing Adventure",
+					"description": "An epic journey of heroes and villains.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 21,
+			"image": "/hero.svg",
+			"name": "Anne Wojcicki",
+			"description": "Биография героя Anne Wojcicki. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 1,
+					"name": "The Amazing Adventure",
+					"description": "An epic journey of heroes and villains.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 2,
+					"name": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 22,
+			"image": "/hero.svg",
+			"name": "Susan Wojcicki",
+			"description": "Биография героя Susan Wojcicki. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 2,
+					"name": "Battle of the Titans",
+					"description": "Clashes between legendary titans in a modern world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 3,
+					"name": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 23,
+			"image": "/hero.svg",
+			"name": "Eric Schmidt",
+			"description": "Биография героя Eric Schmidt. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 3,
+					"name": "Mystery in the City",
+					"description": "A detective story with unexpected twists.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 4,
+					"name": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 24,
+			"image": "/hero.svg",
+			"name": "Ray Dalio",
+			"description": "Биография героя Ray Dalio. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 4,
+					"name": "Rise of the Legends",
+					"description": "Heroes unite to defeat a common foe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 5,
+					"name": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 25,
+			"image": "/hero.svg",
+			"name": "Peter Thiel",
+			"description": "Биография героя Peter Thiel. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 5,
+					"name": "Shadow Warriors",
+					"description": "A group of warriors operates from the shadows.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 6,
+					"name": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 26,
+			"image": "/hero.svg",
+			"name": "Marc Benioff",
+			"description": "Биография героя Marc Benioff. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 6,
+					"name": "Cosmic Quest",
+					"description": "A space odyssey with intergalactic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 7,
+					"name": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 27,
+			"image": "/hero.svg",
+			"name": "Larry Ellison",
+			"description": "Биография героя Larry Ellison. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 7,
+					"name": "The Last Stand",
+					"description": "A gripping tale of courage and sacrifice.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 8,
+					"name": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 28,
+			"image": "/hero.svg",
+			"name": "Ginni Rometty",
+			"description": "Биография героя Ginni Rometty. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 8,
+					"name": "Urban Legends",
+					"description": "Modern myths come alive in the urban jungle.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 9,
+					"name": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 29,
+			"image": "/hero.svg",
+			"name": "John Chambers",
+			"description": "Биография героя John Chambers. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 9,
+					"name": "Fury of the Elements",
+					"description": "Nature’s power is unleashed in epic battles.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 10,
+					"name": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 30,
+			"image": "/hero.svg",
+			"name": "Bob Iger",
+			"description": "Биография героя Bob Iger. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 10,
+					"name": "Chronicles of Destiny",
+					"description": "Fate and heroism intertwined in a timeless saga.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 11,
+					"name": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 31,
+			"image": "/hero.svg",
+			"name": "Bob Swan",
+			"description": "Биография героя Bob Swan. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 11,
+					"name": "Secret Society",
+					"description": "A hidden organization with mysterious powers.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 12,
+					"name": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 32,
+			"image": "/hero.svg",
+			"name": "Kevin Systrom",
+			"description": "Биография героя Kevin Systrom. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 12,
+					"name": "Vortex of Time",
+					"description": "Time travel and paradoxes in a high stakes adventure.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 13,
+					"name": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 33,
+			"image": "/hero.svg",
+			"name": "Evan Spiegel",
+			"description": "Биография героя Evan Spiegel. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 13,
+					"name": "Legends Reborn",
+					"description": "Forgotten heroes emerge in a modern era.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 14,
+					"name": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 34,
+			"image": "/hero.svg",
+			"name": "Travis Kalanick",
+			"description": "Биография героя Travis Kalanick. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 14,
+					"name": "Quest for Honor",
+					"description": "A noble quest that tests the limits of bravery.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 15,
+					"name": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 35,
+			"image": "/hero.svg",
+			"name": "Dara Khosrowshahi",
+			"description": "Биография героя Dara Khosrowshahi. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 15,
+					"name": "Rebel Uprising",
+					"description": "Revolution and resistance in a dystopian future.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 16,
+					"name": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 36,
+			"image": "/hero.svg",
+			"name": "Brian Chesky",
+			"description": "Биография героя Brian Chesky. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 16,
+					"name": "Mystic Realms",
+					"description": "Magic and mystery in a world beyond imagination.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 17,
+					"name": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 37,
+			"image": "/hero.svg",
+			"name": "Joe Gebbia",
+			"description": "Биография героя Joe Gebbia. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 17,
+					"name": "Edge of Darkness",
+					"description": "Battles between light and dark forces.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 18,
+					"name": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 38,
+			"image": "/hero.svg",
+			"name": "Nathan Blecharczyk",
+			"description": "Биография героя Nathan Blecharczyk. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 18,
+					"name": "Heroes United",
+					"description": "Diverse heroes come together to save the world.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 19,
+					"name": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 39,
+			"image": "/hero.svg",
+			"name": "Daniel Ek",
+			"description": "Биография героя Daniel Ek. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 19,
+					"name": "Rise and Fall",
+					"description": "A dramatic tale of victory and defeat.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 20,
+					"name": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				}
+			]
+		},
+		{
+			"id": 40,
+			"image": "/hero.svg",
+			"name": "David Karp",
+			"description": "Биография героя David Karp. Его история и достижения вдохновляют многих.",
+			"comics": [
+				{
+					"id": 20,
+					"name": "Infinite Horizons",
+					"description": "Exploring endless possibilities in a boundless universe.",
+					"image": "/comic.svg"
+				},
+				{
+					"id": 1,
+					"name": "The Amazing Adventure",
+					"description": "An epic journey of heroes and villains.",
+					"image": "/comic.svg"
+				}
+			]
+		}
+	]
+}
