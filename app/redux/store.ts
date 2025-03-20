@@ -1,5 +1,6 @@
 import { configureStore } from '@reduxjs/toolkit'
 import activeHeroReducer from './features/activeHero/activeHeroSlice'
+import comicsReducer from './features/comics/comicsSlise'
 
 // export const makeStore = () => {
 // 	return configureStore({
@@ -12,6 +13,7 @@ import activeHeroReducer from './features/activeHero/activeHeroSlice'
 export const store = configureStore({
 	reducer: {
 		activeHeroReducer: activeHeroReducer,
+		comics: comicsReducer,
 	},
 })
 

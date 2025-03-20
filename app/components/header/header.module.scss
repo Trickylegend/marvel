@@ -6,7 +6,7 @@
 	align-items: center;
 	padding: 20px;
 	.navigationContainer {
-		width: 40%;
+		width: 50%;
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
@@ -16,6 +16,7 @@
 			display: flex;
 			justify-content: center;
 			align-items: center;
+			font-size: 40px;
 			&.active::after {
 				position: absolute;
 				content: '';
@@ -34,6 +35,9 @@
 		padding: 20px;
 		.navigationContainer {
 			width: 70%;
+			.link{
+				font-size: 30px;
+			}
 		}
 	}
 }
@@ -43,6 +47,9 @@
 		padding: 20px;
 		.navigationContainer {
 			width: 100%;
+			.link{
+				font-size: 20px;
+			}
 		}
 	}
 }

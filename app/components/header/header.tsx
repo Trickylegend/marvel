@@ -13,7 +13,7 @@ export default function Header() {
 						${isPending && styles.pending}`
 					}
 				>
-					Комиксы
+					Comics
 				</NavLink>
 				<NavLink
 					to={'/heroes'}
@@ -23,7 +23,7 @@ export default function Header() {
 						${isPending && styles.pending}`
 					}
 				>
-					Персонажи
+					Heroes
 				</NavLink>
 			</nav>
 		</div>
