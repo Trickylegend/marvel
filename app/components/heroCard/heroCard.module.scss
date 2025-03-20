@@ -12,7 +12,7 @@
 	.imageContainer {
 		position: relative;
 		border-radius: 10px;
-		width: 40%;
+		width: 50%;
 		aspect-ratio: 10 / 12;
 		overflow: hidden;
 		img {
@@ -22,15 +22,37 @@
 		}
 	}
 	.infoContainer {
-		width: 80%;
+		width: 100%;
 		display: flex;
 		flex-direction: column;
 		gap: 10px;
-		.name{
+		.name {
 			font-size: 24px;
 		}
 		.description {
 			font-size: 18px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.heroCardContainer {
+		padding: 20px;
+		width: 80%;
+		gap: 20px;
+		.imageContainer {
+			width: 40%;
+			aspect-ratio: 10 / 12;
+		}
+		.infoContainer {
+			width: 100%;
+			gap: 10px;
+			.name {
+				font-size: 22px;
+			}
+			.description {
+				font-size: 16px;
+			}
 		}
 	}
 }

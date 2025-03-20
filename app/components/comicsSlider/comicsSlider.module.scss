@@ -7,3 +7,19 @@
 		max-width: 300px;
 	}
 }
+@media (max-width: 1200px) {
+	.sliderContainer {
+		width: 100%;
+		.swiperSlide {
+			max-width: 250px;
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.sliderContainer {
+		width: 100%;
+		.swiperSlide {
+			max-width: 200px;
+		}
+	}
+}

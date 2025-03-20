@@ -27,3 +27,43 @@
 		}
 	}
 }
+
+@media (max-width: 1200px) {
+	.smallComicCardContainer {
+		gap: 10px;
+		height: 350px;
+		.imageContainer {
+			width: 90%;
+			aspect-ratio: 10 / 13;
+		}
+		.infoContainer {
+			width: 90%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.title {
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.smallComicCardContainer {
+		gap: 10px;
+		height: 350px;
+		.imageContainer {
+			width: 95%;
+			aspect-ratio: 10 / 12;
+		}
+		.infoContainer {
+			width: 95%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			.title {
+				font-size: 16px;
+			}
+		}
+	}
+}
