@@ -57,16 +57,24 @@ export default function Heroes({ loaderData }: Route.ComponentProps) {
 					/>
 				</Form>
 				<div className={styles.listContainer}>
-					{heroes.map(hero => (
-						<SmallHeroCard hero={hero} key={hero.id} />
-					))}
+					{heroes.length && heroes.length > 0 ? (
+						heroes.map(hero => <SmallHeroCard hero={hero} key={hero.id} />)
+					) : (
+						<div className={styles.dataNotFound}>Data not found</div>
+					)}
+
+					{heroes.length === 0 && q !== '' && (
+						<div className={styles.searchNotFound}>Search not found</div>
+					)}
 				</div>
 			</div>
 			<div className={styles.activeHeroContainer}>
 				{activeHero && (
 					<>
 						<HeroCard hero={activeHero} />
-						<ComicsSlider comics={activeHero.comics} />
+						{activeHero.comics && activeHero.comics.length > 0 && (
+							<ComicsSlider comics={activeHero.comics} />
+						)}
 					</>
 				)}
 			</div>

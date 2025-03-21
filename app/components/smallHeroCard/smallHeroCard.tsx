@@ -16,10 +16,16 @@ export default function SmallHeroCard({ hero }: { hero: Hero }) {
 			}}
 		>
 			<div className={styles.imageContainer}>
-				<img src={hero.image} alt={hero.name} />
+				{hero.image ? (
+					<img src={hero.image} alt={hero.name} />
+				) : (
+					<img src={'/hero.svg'} alt={hero.name ? hero.name : 'Hero'} />
+				)}
 			</div>
 			<div className={styles.infoContainer}>
-				<h2 className={styles.name}>{hero.name}</h2>
+				<h2 className={styles.name}>
+					{hero.name ? hero.name : 'No information available'}
+				</h2>
 			</div>
 		</div>
 	)

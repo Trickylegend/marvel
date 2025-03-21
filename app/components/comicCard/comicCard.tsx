@@ -5,10 +5,16 @@ export default function ComicCard({ comic }: { comic: ComicSummary }) {
 	return (
 		<div className={styles.container}>
 			<div className={styles.imageContainer}>
-				<img src={comic.image} alt={comic.title} />
+				{comic.image ? (
+					<img src={comic.image} alt={comic.title} />
+				) : (
+					<img src={'/comic.svg'} alt={comic.title ? comic.title : 'Comics'} />
+				)}
 			</div>
 			<div className={styles.infoContainer}>
-				<h3 className={styles.name}>{comic.title}</h3>
+				<h3 className={styles.name}>
+					{comic.title ? comic.title : 'No information available'}
+				</h3>
 				{comic.price && <p className={styles.price}>${comic.price}</p>}
 			</div>
 		</div>

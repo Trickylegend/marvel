@@ -26,11 +26,6 @@ export const links: Route.LinksFunction = () => [
 	},
 ]
 
-// const storeRef = useRef<AppStore | null>(null)
-// if (!storeRef.current) {
-// 	storeRef.current = makeStore()
-// }
-
 export function Layout({ children }: { children: React.ReactNode }) {
 	return (
 		<html lang='en'>
@@ -42,7 +37,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
 			</head>
 			<body>
 				<Provider store={store}>{children}</Provider>
-				{/* <Provider store={storeRef.current}>{children}</Provider> */}
 				<ScrollRestoration />
 				<Scripts />
 			</body>
