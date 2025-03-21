@@ -1,0 +1,233 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: #1f2833;
+	border-radius: 10px;
+	overflow: hidden;
+	gap: 120px;
+	.imageContainer {
+		flex: 1;
+		border-radius: 10px;
+		aspect-ratio: 10 / 14;
+		overflow: hidden;
+		.skeleton {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.infoContainer {
+		flex: 2;
+		display: flex;
+		flex-direction: column;
+		justify-content: start;
+		gap: 20px;
+		border-radius: 10px;
+		padding: 20px 50px;
+		.textContainer {
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			gap: 20px;
+			.titleSkeleton {
+				height: 24px;
+			}
+			.descriptionSkeleton {
+				height: calc(18px * 6);
+			}
+		}
+		.additionalInfo {
+			display: flex;
+			justify-content: space-between;
+			gap: 20px;
+			.shortInfoContainer {
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				gap: 20px;
+				.shortInfo {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					gap: 15px;
+					.imageContainer {
+						min-width: 40px;
+						max-width: 40px;
+						height: 40px;
+						background-color: #66fcf1;
+						flex: 1;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						.iconSkeleton {
+							width: 80%;
+							height: 80%;
+						}
+					}
+					.textSkeleton {
+						flex: 2;
+						display: flex;
+						justify-content: start;
+						align-items: center;
+						width: 200px;
+						height: 30px;
+					}
+				}
+			}
+			.priceContainer {
+				display: flex;
+				justify-content: center;
+				align-items: end;
+				.priceSkeleton {
+					display: flex;
+					justify-content: center;
+					align-items: center;
+					border: 2px solid #66fcf1;
+					border-radius: 10px;
+					padding: 15px 30px;
+					min-height: 50px;
+					min-width: 100px;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 1200px) {
+	.container {
+		flex-direction: row;
+		justify-content: center;
+		gap: 80px;
+		.imageContainer {
+			flex: 2;
+			aspect-ratio: 10 / 14;
+		}
+		.infoContainer {
+			flex: 3;
+			gap: 20px;
+			padding: 20px 40px;
+			.textContainer {
+				gap: 20px;
+				.title {
+					font-size: 20px;
+				}
+				.description {
+					font-size: 16px;
+				}
+			}
+			.additionalInfo {
+				gap: 20px;
+				.shortInfoContainer {
+					gap: 15px;
+					.shortInfo {
+						display: flex;
+						justify-content: center;
+						gap: 15px;
+						.imageContainer {
+							min-width: 35px;
+							width: 35px;
+							height: 35px;
+							img {
+								object-fit: contain;
+								width: 70%;
+								height: 70%;
+							}
+						}
+						.text {
+							flex: 2;
+							font-size: 16px;
+						}
+					}
+				}
+				.priceContainer {
+					.price {
+						padding: 10px 25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 800px) {
+	.container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 80px;
+		padding-bottom: 100px;
+		.imageContainer {
+			flex: unset;
+			height: 500px;
+			aspect-ratio: 10 / 12;
+		}
+		.infoContainer {
+			flex: unset;
+			gap: 20px;
+			padding: 20px 40px;
+			.textContainer {
+				gap: 20px;
+				.title {
+					font-size: 20px;
+				}
+				.description {
+					font-size: 16px;
+				}
+			}
+			.additionalInfo {
+				gap: 20px;
+				.shortInfoContainer {
+					gap: 15px;
+					.shortInfo {
+						display: flex;
+						justify-content: center;
+						gap: 15px;
+						.imageContainer {
+							min-width: 35px;
+							max-width: 35px;
+							max-height: 35px;
+							height: 35px;
+							img {
+								object-fit: contain;
+								width: 70%;
+								height: 70%;
+							}
+						}
+						.text {
+							flex: 2;
+							font-size: 16px;
+						}
+					}
+				}
+				.priceContainer {
+					.price {
+						padding: 10px 25px;
+					}
+				}
+			}
+		}
+	}
+}
+
+.skeleton,
+.titleSkeleton,
+.descriptionSkeleton,
+.iconSkeleton,
+.textSkeleton,
+.priceSkeleton {
+	background: linear-gradient(90deg, #1f2833 0%, #66fcf1 50%, #1f2833 100%);
+	background-size: 200% 100%;
+	animation: shimmer 1.5s infinite;
+	border-radius: 4px;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -200% 0;
+	}
+	100% {
+		background-position: 200% 0;
+	}
+}
+
+

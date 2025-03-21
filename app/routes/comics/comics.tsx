@@ -1,7 +1,7 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router'
-import { cache } from '~/api/cache'
 import { getComics } from '~/api/getComics'
+import { loadWithCache } from '~/api/loadWithCache'
 import ComicCard from '~/components/comicCard/comicCard'
 import ComicsSkeleton from '~/components/skeletons/comics/comicsSkeleton'
 import {
@@ -19,28 +19,13 @@ export async function loader() {
 	return { comics }
 }
 
-let isInitialRequest = true
+const isInitialRequest = { current: true }
 export async function clientLoader({
 	request,
 	serverLoader,
 }: Route.ClientLoaderArgs) {
 	const cacheKey = 'comics'
-
-	if (isInitialRequest) {
-		isInitialRequest = false
-		const serverData = await serverLoader()
-		cache.set(cacheKey, serverData)
-		return serverData
-	}
-
-	const cachedData = await cache.get(cacheKey)
-	if (cachedData) {
-		return cachedData
-	}
-
-	const serverData = await serverLoader()
-	cache.set(cacheKey, serverData)
-	return serverData
+	return await loadWithCache(cacheKey, serverLoader, isInitialRequest)
 }
 clientLoader.hydrate = true
 

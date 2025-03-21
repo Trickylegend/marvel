@@ -1,15 +1,32 @@
 import { getComics } from '~/api/getComics'
+import { loadWithCache } from '~/api/loadWithCache'
+import ComicSkeleton from '~/components/skeletons/comic/comicSkeleton'
 import type { Route } from './+types/comic'
 import styles from './comic.module.scss'
 
 export async function loader({ params }: Route.LoaderArgs) {
 	const comics = await getComics({ id: params.comicId })
-	if (!comics && comics.length === 0) {
-		console.log('Нет данных')
+	if (!comics || comics.length === 0) {
 		throw new Error('Record Not Found')
 	}
-
 	return { comic: comics[0] }
+}
+
+const isInitialRequest = { current: true }
+
+export async function clientLoader({
+	request,
+	params,
+	serverLoader,
+}: Route.ClientLoaderArgs) {
+	const cacheKey = 'comics/' + params.comicId
+	return await loadWithCache(cacheKey, serverLoader, isInitialRequest)
+}
+
+clientLoader.hydrate = true
+
+export function HydrateFallback() {
+	return <ComicSkeleton />
 }
 
 export default function Comic({ loaderData }: Route.ComponentProps) {
