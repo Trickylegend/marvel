@@ -1,8 +1,10 @@
 import React from 'react'
 import { Form, useNavigation, useSubmit } from 'react-router'
 import { getHeroes } from '~/api/getHeroes'
+import { loadWithCache } from '~/api/loadWithCache'
 import ComicsSlider from '~/components/comicsSlider/comicsSlider'
 import HeroCard from '~/components/heroCard/heroCard'
+import HeroesSkeleton from '~/components/skeletons/heroes/heroesSkeleton'
 import SmallHeroCard from '~/components/smallHeroCard/smallHeroCard'
 import { useAppSelector } from '~/redux/hooks'
 import type { Route } from './+types/heroes'
@@ -13,6 +15,23 @@ export async function loader({ request }: Route.LoaderArgs) {
 	const q = url.searchParams.get('q')
 	const heroes = await getHeroes({ name: q })
 	return { heroes, q }
+}
+
+const isInitialRequest = { current: true }
+
+export async function clientLoader({
+	request,
+	serverLoader,
+}: Route.ClientLoaderArgs) {
+	const url = new URL(request.url)
+	const q = url.searchParams.get('q')
+	const cacheKey = 'heroes' + q
+	return await loadWithCache(cacheKey, serverLoader, isInitialRequest)
+}
+clientLoader.hydrate = true
+
+export function HydrateFallback() {
+	return <HeroesSkeleton />
 }
 
 export default function Heroes({ loaderData }: Route.ComponentProps) {
@@ -57,11 +76,13 @@ export default function Heroes({ loaderData }: Route.ComponentProps) {
 					/>
 				</Form>
 				<div className={styles.listContainer}>
-					{heroes.length && heroes.length > 0 ? (
-						heroes.map(hero => <SmallHeroCard hero={hero} key={hero.id} />)
-					) : (
+					{!heroes.length && q === '' && (
 						<div className={styles.dataNotFound}>Data not found</div>
 					)}
+
+					{heroes.length &&
+						heroes.length > 0 &&
+						heroes.map(hero => <SmallHeroCard hero={hero} key={hero.id} />)}
 
 					{heroes.length === 0 && q !== '' && (
 						<div className={styles.searchNotFound}>Search not found</div>

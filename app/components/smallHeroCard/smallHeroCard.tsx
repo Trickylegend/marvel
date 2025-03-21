@@ -12,7 +12,9 @@ export default function SmallHeroCard({ hero }: { hero: Hero }) {
 				activeHero?.id === hero.id && styles.active
 			}`}
 			onClick={() => {
-				dispatch(setActiveHero(hero))
+				activeHero?.id === hero.id
+					? dispatch(setActiveHero(undefined))
+					: dispatch(setActiveHero(hero))
 			}}
 		>
 			<div className={styles.imageContainer}>

@@ -1,0 +1,95 @@
+.smallHeroCard {
+	display: flex;
+	justify-content: start;
+	align-items: center;
+	gap: 50px;
+	padding: 20px;
+	border: 1px solid #66fcf1;
+	border-radius: 10px;
+	&.active {
+		background-color: #1f2833;
+	}
+
+	.imageContainer {
+		border: unset;
+		border-radius: 10px;
+		position: relative;
+		width: 100px;
+		aspect-ratio: 1 / 1;
+		overflow: hidden;
+		.skeleton {
+			object-fit: cover;
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	.infoContainer {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 0 20px;
+		.skeletonName {
+			height: 30px;
+			width: 150px;
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	.smallHeroCard {
+		justify-content: start;
+		align-items: center;
+		gap: 15px;
+		padding: 10px;
+		.imageContainer {
+			width: 100px;
+			aspect-ratio: 1 / 1;
+		}
+		.infoContainer {
+			justify-content: center;
+			align-items: center;
+			padding: 0 5px;
+			.skeletonName {
+				height: 30px;
+				width: 100px;
+			}
+		}
+	}
+}
+@media (max-width: 800px) {
+	.smallHeroCard {
+		gap: 10px;
+		padding: 10px;
+		.imageContainer {
+			width: 100px;
+			aspect-ratio: 1 / 1;
+		}
+		.infoContainer {
+			justify-content: center;
+			align-items: center;
+			padding: 0 5px;
+			.skeletonName {
+				height: 30px;
+				width: 50px;
+			}
+		}
+	}
+}
+
+.skeleton,
+.skeletonName {
+	background: linear-gradient(90deg, #1f2833 0%, #66fcf1 50%, #1f2833 100%);
+	background-size: 200% 100%;
+	animation: shimmer 1.5s infinite;
+	border-radius: 4px;
+}
+
+@keyframes shimmer {
+	0% {
+		background-position: -200% 0;
+	}
+	100% {
+		background-position: 200% 0;
+	}
+}
