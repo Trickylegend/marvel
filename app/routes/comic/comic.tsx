@@ -4,7 +4,12 @@ import styles from './comic.module.scss'
 
 export async function loader({ params }: Route.LoaderArgs) {
 	const comics = await getComics({ id: params.comicId })
-	return { comic: comics[0] || {}}
+	if (!comics && comics.length === 0) {
+		console.log('Нет данных')
+		throw new Error('Record Not Found')
+	}
+
+	return { comic: comics[0] }
 }
 
 export default function Comic({ loaderData }: Route.ComponentProps) {

@@ -1,0 +1,34 @@
+.errorContainer {
+	margin: 30vh auto;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 100px;
+	.imageContainer {
+		width: 300px;
+		aspect-ratio: 1/1;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+		}
+	}
+	.messageContainer {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: start;
+		gap: 30px;
+
+		h1 {
+			font-size: 50px;
+		}
+		button {
+			padding: 30px;
+			border: 5px solid #ff0000;
+			border-radius: 20px;
+			font-size: 25px;
+		}
+	}
+}
