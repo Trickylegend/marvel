@@ -1,18 +1,23 @@
-# Welcome to React Router!
+# Marvel Comics App
 
-A modern, production-ready template for building full-stack React applications using React Router.
+The **Marvel Comics App** project is a modern web application built with **React 19** using **React Router** and **Redux**. This application allows users to view a list of Marvel comics, explore a list of heroes, and see the comics in which these heroes participate.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## Project Description
 
-## Features
+The app provides the following features:
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+- **Comics List:** View an updated list of comics with the ability to navigate to detailed information about a selected comic.
+- **Heroes List:** Explore a list of Marvel heroes with a search functionality. When a hero is selected, detailed information is displayed along with a list of comics in which they appear.
+- **Comic Details Page:** Display detailed information about a comic, including its image, description, page count, language, and price.
+- **User-friendly Navigation:** Implemented routing with React Router for fast and smooth navigation between sections.
+- **Global State Management:** Utilizes Redux to manage the application's state (e.g., storing active hero information or loaded comics).
+
+## Technologies
+
+- **React 19**
+- **React Router**
+- **Redux**
+- CSS modules for component styling
 
 ## Getting Started
 
@@ -41,6 +46,22 @@ Create a production build:
 ```bash
 npm run build
 ```
+
+## Project Structure
+
+marvel-comics-app/
+├── public/
+│ └── index.html
+├── src/
+│ ├── api/ # API requests for fetching data (comics, heroes)
+│ ├── components/ # Reusable components (comic cards, hero cards, sliders, etc.)
+│ ├── layouts/ # Page layouts and navigation components
+│ ├── redux/ # Redux store, slices, and hooks for global state management
+│ ├── routes/ # Route files (comics, heroes, comic details)
+│ ├── styles/ # Global styles and CSS modules
+│ └── App.tsx # Root component of the application
+├── package.json
+└── README.md
 
 ## Deployment
 
@@ -80,8 +101,4 @@ Make sure to deploy the output of `npm run build`
 
 ## Styling
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+You can use CSS modules and also [Tailwind CSS](https://tailwindcss.com/) already configured. You can use whatever CSS framework you prefer.
