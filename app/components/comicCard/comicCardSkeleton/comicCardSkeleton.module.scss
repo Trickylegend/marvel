@@ -1,0 +1,75 @@
+.container {
+  height: 100%;
+  background-color: #1f2833;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.imageContainer {
+  width: 350px;
+  aspect-ratio: 10 / 12;
+  overflow: hidden;
+}
+
+.infoContainer {
+  width: 100%;
+  padding: 30px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* Общий стиль для эффекта переливания */
+.skeleton,
+.titleSkeleton,
+.priceSkeleton {
+  background: linear-gradient(90deg, #1f2833 0%, #66fcf1 50%, #1f2833 100%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 4px;
+}
+
+.skeleton {
+  width: 100%;
+  height: 100%;
+}
+
+.titleSkeleton {
+  width: 80%;
+  height: 24px;
+}
+
+.priceSkeleton {
+  width: 40%;
+  height: 18px;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@media (max-width: 1200px) {
+  .infoContainer {
+    padding: 20px 15px;
+  }
+  .titleSkeleton {
+    height: 20px;
+  }
+  .priceSkeleton {
+    height: 16px;
+  }
+}
+
+@media (max-width: 800px) {
+  .imageContainer {
+    aspect-ratio: 1;
+  }
+}
