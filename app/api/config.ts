@@ -17,7 +17,7 @@ export async function fetchData<T>(
 		setTimeout(() => {
 			const items = data[type]
 			if (!items) {
-				return reject(new Error(`Нет данных для типа "${type}"`))
+				return reject(new Error(`No available data of type "${type}"`))
 			}
 
 			let result: unknown = items
