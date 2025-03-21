@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Marvel Comics App
 
 The **Marvel Comics App** project is a modern web application built with **React 19** using **React Router** and **Redux**. This application allows users to view a list of Marvel comics, explore a list of heroes, and see the comics in which these heroes participate.
@@ -102,3 +103,6 @@ Make sure to deploy the output of `npm run build`
 ## Styling
 
 You can use CSS modules and also [Tailwind CSS](https://tailwindcss.com/) already configured. You can use whatever CSS framework you prefer.
+=======
+# marvel
+>>>>>>> 2112953 (Initial commit)
